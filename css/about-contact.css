@@ -1,0 +1,144 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+	border:none;
+}
+body{
+	background:#E4FCFF;
+}
+a{
+	text-decoration:none;
+}
+.mother{
+	position:relative;
+	width:1024px;
+	height:600px;
+	background:#E4FCFF;
+	margin:0 auto;
+}
+ul li.menu-btns{
+	display:block;
+	text-decoration:none;
+	float:left;
+}
+.navigation-menu-holder-fixed{
+	position:fixed;
+	top:0;
+	height:50px;
+	width:1024px;
+	z-index:10;
+	background:#E93200;
+	border-bottom-left-radius:30px;
+	border-bottom-right-radius:30px;
+}
+.btn-holder{
+	position:relative;
+	margin:0 auto;
+	height:50px;
+	width:500px;
+	text-align:center;
+	line-height:50px;
+	
+}
+.menu-btns{
+	position:relative;
+	width:100px;
+	height:50px;
+	padding:0 10px;
+}
+.menu-btn{
+	color:#FFFFFF;
+	font-size:20px;
+}
+.left-box{
+	position:relative;
+	width:400px;
+	height:400px;
+	left:50px;
+	top:100px;
+	background:#79C450;
+	float:left;
+	border-radius:5px;
+}
+.right-box{
+	position:relative;
+	width:400px;
+	height:400px;
+	right:50px;
+	top:100px;
+	background:#D8BFF9;
+	float:right;
+	color:#FFFFFF;
+	border-radius:5px;
+}
+
+.about-content{
+	position:relative;
+	top:0;
+	width:350px;
+	height:200px;
+	padding:25px;
+	text-align:justify;
+	margin:0 auto;
+}
+.about-address{
+	position:relative;
+	top:0;
+	width:350px;
+	height:100px;
+	padding:5px;
+	margin:0 auto;
+	font-size:12px;
+	text-align:center;
+	font-style:italic;
+}
+.about-number{
+	position:relative;
+	top:0;
+	width:350px;
+	height:30px;
+	padding:5px;
+	text-align:center;
+	margin:0 auto;
+	font-size:16px;
+	font-style:italic;
+}
+.contact{
+	position:relative;
+	margin:0 auto;
+	width:350px;
+	height:250px;
+	top:200px;
+	background:#89D8FF;
+	padding:25px;
+	text-align:justify;
+}
+#submit{
+	width:60px;
+	height:25px;
+	border-radius:5px;
+	margin-top:20px;
+	background:#292929;
+	color:#FFFFFF;
+	font-weight:bold;
+	margin:0 auto;
+}
+#map {
+	width: 400px;
+	height: 400px;
+}
+.inputs{
+	margin:10px auto;
+	width:100px;
+	height:20px;
+	padding:5px;
+	border-radius:10px;
+}
+.comment{
+	margin:10px auto;
+	width:200px;
+	height:100px;
+	padding:5px;
+	border-radius:10px;
+}
